@@ -1,0 +1,17 @@
+{
+  "name": "js-practical-exercises",
+  "version": "1.0.0",
+  "description": "This repo is about  javascript practice exerceise",
+  "main": "Arraystatistics.js",
+  "scripts": {
+    "start": "node Arraystatistics.js",
+    "dev":"nodemon Arraystatistics.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deve": "^0.0.0",
+    "nodemon": "^3.1.0"
+  }
+}
