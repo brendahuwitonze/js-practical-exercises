@@ -4,3 +4,17 @@ function  sortingProducts(array){
 }
 
 console.log(sortingProducts(products))
+
+
+
+
+var myChars = ["a", "b", "c", "d"];
+delete myChars[0];
+console.log(myChars);
+console.log(myChars[0]);
+console.log(myChars.length);
+
+// 1: [empty, 'b', 'c', 'd'], empty, 3
+// 2: [null, 'b', 'c', 'd'], empty, 3
+// 3: [empty, 'b', 'c', 'd'], undefined, 4
+// 4: [null, 'b', 'c', 'd'], undefined, 4
